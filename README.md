@@ -1,8 +1,9 @@
-# wpgtk-theme README
+# wpgtk-theme
 A VS Code theme that supports [wpgtk](https://github.com/deviantfero/wpgtk)
   
   
 ![screenshot](/img/screenshot.jpg)
+_Theme still in development._
   
 ## Installation 
 - First make sure you have [wpgtk](https://github.com/deviantfero/wpgtk) and [VScode](https://code.visualstudio.com/) installed
@@ -29,3 +30,4 @@ A VS Code theme that supports [wpgtk](https://github.com/deviantfero/wpgtk)
   ```
   (Ctrl+K Ctrl+T) > wpgtk-theme
   ```
+
