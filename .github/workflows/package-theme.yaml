@@ -19,9 +19,8 @@ jobs:
       run: npm install @vscode/vsce --save-dev 
     - name: build package
       run: npm run build
-    - name: upload file to release
-      uses: Shopify/upload-to-release@v2.0.0
+    - name: upload package
+      uses: actions/upload-artifact@v4
       with:
         name: wpgtk-theme-${{ github.ref_name }}.vsix
-        path: ./wpgtk-theme-${{ github.ref_name }}.vsix
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        path: ./wpgtk-theme-*.vsix
