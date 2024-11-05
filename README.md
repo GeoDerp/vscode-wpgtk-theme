@@ -8,7 +8,7 @@ _Theme still in development._
 ## Installation 
 - First make sure you have [wpgtk](https://github.com/deviantfero/wpgtk) and [VScode](https://code.visualstudio.com/) installed
 
-- Grab the latest .vsix (Packadge file) from [release](https://github.com/GeoDerp/vscode-wpgtk-theme/releases) 
+- Grab the latest .vsix (Package file) from [release](https://github.com/GeoDerp/vscode-wpgtk-theme/releases) 
 
 - Install the theme with vscode
   ```bash
@@ -28,6 +28,6 @@ _Theme still in development._
 
 - Lastly select the theme in VS Code  
   ```
-  (Ctrl+K Ctrl+T) > wpgtk-theme
+  VS Code > (Ctrl+K Ctrl+T) > wpgtk-theme
   ```
 
