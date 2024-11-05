@@ -1,6 +1,9 @@
 # wpgtk-theme README
 A VS Code theme that supports [wpgtk](https://github.com/deviantfero/wpgtk)
-
+  
+  
+![screenshot](/img/screenshot.jpg)
+  
 ## Installation 
 - First make sure you have [wpgtk](https://github.com/deviantfero/wpgtk) and [VScode](https://code.visualstudio.com/) installed
 
@@ -14,7 +17,7 @@ A VS Code theme that supports [wpgtk](https://github.com/deviantfero/wpgtk)
 - Add the theme as a wpgtk template
   _Linux example:_
   ```bash
-  wpg -ta  ~/.vscode/extensions/$(ls | grep wpgtk-theme)/themes/wpgtk-theme-color-theme.json
+  wpg -ta  ~/.vscode/extensions/$(ls ~/.vscode/extensions/ | grep wpgtk-theme)/themes/wpgtk-theme-color-theme.json
   ```
   
 - Apply a wpg color scheme 
