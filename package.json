@@ -1,0 +1,23 @@
+{
+  "name": "wpgtk-theme",
+  "displayName": "wpgtk-theme",
+  "description": "wpgtk them for VS Code",
+  "repository": "https://github.com/GeoDerp/vscode-wpgtk-theme",
+  "license": "MIT",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.95.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "wpgtk-theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/wpgtk-theme-color-theme.json"
+      }
+    ]
+  }
+}
