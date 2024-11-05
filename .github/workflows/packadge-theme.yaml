@@ -9,6 +9,8 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v4
+    - name: Change version number 
+      run:  sed 's%  "version": .*%  "version": "${{ github.ref_name }}",%g' ./package.json
     - name: Install Node.js
       uses: actions/setup-node@v4
       with:
@@ -18,5 +20,5 @@ jobs:
     - run: npm run build
     - uses: actions/upload-artifact@v4
       with:
-        name: wpgtk-theme-*.vsix
-        path: .
+        name: wpgtk-theme-${{ github.ref_name }.vsix
+        path: ./wpgtk-theme-*.vsix
