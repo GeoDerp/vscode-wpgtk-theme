@@ -10,7 +10,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v4
     - name: Change package version number 
-      run:  'sed s%  "version": .*%  "version": "${{ github.ref_name }}",%g ./package.json'
+      run:  'sed -i "s%  \"version\": .*%  \"version\": \"2.0.0\",%g" ./package.json'
     - name: Install Node.js
       uses: actions/setup-node@v4
       with:
