@@ -23,5 +23,5 @@ jobs:
       uses: Shopify/upload-to-release@v2.0.0
       with:
         name: wpgtk-theme-${{ github.ref_name }}.vsix
-        path: ./wpgtk-theme-*.vsix
+        path: ./wpgtk-theme-${{ github.ref_name }}.vsix
         repo-token: ${{ secrets.GITHUB_TOKEN }}
