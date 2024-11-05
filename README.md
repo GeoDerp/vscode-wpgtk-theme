@@ -8,7 +8,7 @@ A VS Code theme that supports [wpgtk](https://github.com/deviantfero/wpgtk)
 
 - Install the theme with vscode
   ```bash
-  code  --install-extension ./*.vsix
+  code  --install-extension ./wpgtk-theme*.vsix
   ```
   
 - Add the theme as a wpgtk template
@@ -17,7 +17,12 @@ A VS Code theme that supports [wpgtk](https://github.com/deviantfero/wpgtk)
   wpg -ta  ~/.vscode/extensions/$(ls | grep wpgtk-theme)/themes/wpgtk-theme-color-theme.json
   ```
   
-- Lastly apply a wpg color scheme 
+- Apply a wpg color scheme 
   ```bash
   wpg -m
   ```
+
+- Lastly select the theme in VS Code  
+```
+(Ctrl+K Ctrl+T) > wpgtk-theme
+```
