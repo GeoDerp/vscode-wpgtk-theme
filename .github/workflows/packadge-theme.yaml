@@ -1,7 +1,7 @@
 on:
-  push:
-    branches:
-      - main
+  release:
+    types: [published]
+  workflow_dispatch:
 
 jobs:
   build-packadge:
@@ -13,8 +13,7 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version: 18.x
-    - run: npm install vsce
-    - run: vsce package
+    - run: npm install @vscode/vsce && vsce package
     - uses: actions/upload-artifact@v4
       with:
         name: wpgtk-theme-*.vsix

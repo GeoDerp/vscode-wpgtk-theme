@@ -13,7 +13,7 @@ code  --install-extension ./*.vsix
 
 Add the theme as a wpgtk template
 ```bash
-wpg -ta  ~/.vscode/extensions/WPGTK-THEME/themes/wpgtk-theme-color-theme.json
+wpg -ta  ~/.vscode/extensions/vscode-wpgtk-theme/themes/wpgtk-theme-color-theme.json
 ```
 
 Lastly apply a wpg color scheme 
