@@ -1,5 +1,6 @@
 {
   "name": "wpgtk-theme",
+  "publisher": "GeoDerp",
   "displayName": "wpgtk-theme",
   "description": "wpgtk them for VS Code",
   "repository": "https://github.com/GeoDerp/vscode-wpgtk-theme",
