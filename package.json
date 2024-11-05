@@ -19,5 +19,8 @@
         "path": "./themes/wpgtk-theme-color-theme.json"
       }
     ]
+  },
+  "scripts": {
+  "build": "vsce package"
   }
 }

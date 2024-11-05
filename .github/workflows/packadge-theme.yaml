@@ -13,7 +13,9 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version: 18.x
-    - run: npm install @vscode/vsce && vsce package
+    - run: npm install @vscode/vsce --save-dev 
+    # Run the packadge.json script
+    - run: npm run build
     - uses: actions/upload-artifact@v4
       with:
         name: wpgtk-theme-*.vsix
