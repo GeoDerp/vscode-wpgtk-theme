@@ -31,3 +31,7 @@ _Theme still in development._
   VS Code > (Ctrl+K Ctrl+T) > wpgtk-theme
   ```
 
+Note: You may need to reload the vscode window to apply the themes colors after a new wallpaper has been selected in wpgtk:
+```bash
+ VS Code > (Ctrl+Shif+P) > Reload Window
+```
