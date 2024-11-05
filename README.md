@@ -23,6 +23,6 @@ A VS Code theme that supports [wpgtk](https://github.com/deviantfero/wpgtk)
   ```
 
 - Lastly select the theme in VS Code  
-```
-(Ctrl+K Ctrl+T) > wpgtk-theme
-```
+  ```
+  (Ctrl+K Ctrl+T) > wpgtk-theme
+  ```
